@@ -1,10 +1,10 @@
-# safecron
+# SafeCron
 
 SafeCron is a wrapper for the `crontab` command that automatically includes the `-i` flag to prevent accidental deletion of the user's crontab when using the `-r` flag.
 
 ## Installation
 
-To install safecron, use one of the following methods:
+To install SafeCron, use one of the following methods:
 
 ### Using `wget`
 
