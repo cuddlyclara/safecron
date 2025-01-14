@@ -10,14 +10,14 @@ To install SafeCron, use one of the following methods:
 
 
 ```bash
-sudo wget https://raw.githubusercontent.com/cuddlyclara/safecron/refs/heads/main/safecron.sh -O /usr/local/bin/safecron && sudo chmod +x /usr/local/bin/safecron
+sudo wget -q https://raw.githubusercontent.com/cuddlyclara/safecron/refs/heads/main/safecron.sh -O /usr/local/bin/safecron && sudo chmod +x /usr/local/bin/safecron
 ```
 
 ### Using `curl`
 
 
 ```bash
-sudo curl https://raw.githubusercontent.com/cuddlyclara/safecron/refs/heads/main/safecron.sh -o /usr/local/bin/safecron && sudo chmod +x /usr/local/bin/safecron
+sudo curl -s https://raw.githubusercontent.com/cuddlyclara/safecron/refs/heads/main/safecron.sh -o /usr/local/bin/safecron && sudo chmod +x /usr/local/bin/safecron
 ```
 
 
